@@ -1,0 +1,18 @@
+# Data and training outputs stay out of git
+Kvasir-SEG/
+data/
+COVID19-Lung/
+*.zip
+*.nii
+*.pth
+*.pt
+*.onnx
+runs/
+
+# Python / OS
+__pycache__/
+.pytest_cache/
+.venv/
+UNET.venv/
+.DS_Store
+dist/
